@@ -1,0 +1,249 @@
+<html>
+    <head><title> Case-Study</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Berkshire+Swash&family=Caveat&family=Cherry+Bomb+One&family=Cinzel+Decorative&family=Cookie&family=Courgette&family=Dancing+Script&family=Delicious+Handrawn&family=DynaPuff&family=Instrument+Serif&family=Monomaniac+One&family=Pacifico&family=Palette+Mosaic&family=Permanent+Marker&family=Playfair+Display&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&family=Shantell+Sans:wght@300&family=Special+Elite&family=Tilt+Prism&family=Tsukimi+Rounded&family=Yellowtail&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <center>
+        <div class="container">
+        <h1>Case Study Between Google Lens Mobilenet</h1>
+        <h2>Google Lens <img src="download.png"></h2>
+        <h2>VS</h2>
+        <h2 class="btn btn-primary">Mobilenet</h2>
+        <br>
+        <br>
+        <ol>
+            <div class="test_image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image- </b>
+                    <img src="Flower.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Google Lens</b>-
+                    <span style="color:red;">Flower</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet Model</b>-
+                    <span style="color: red;">Balloon</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Results- </h4>
+                    <hr>
+                    <h4>Google Lens Is More Accurate</h4>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image- </b>
+                    <img src="Boat.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Google Lens</b>-
+                    <span style="color:red;">Boat</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet Model</b>-
+                    <span style="color: red;">Apron</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Results- </h4>
+                    <hr>
+                    <h4>Google Lens Is More Accurate</h4>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image- </b>
+                    <img src="Bottle.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Google Lens</b>-
+                    <span style="color:red;">Bottle</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet Model</b>-
+                    <span style="color: red;">Missile</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Results- </h4>
+                    <hr>
+                    <h4>Google Lens Is More Accurate</h4>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image- </b>
+                    <img src="Charger.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Google Lens</b>-
+                    <span style="color:red;">Charger</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet Model</b>-
+                    <span style="color: red;">Charm</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Results- </h4>
+                    <hr>
+                    <h4>Google Lens Is More Accurate</h4>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image- </b>
+                    <img src="Power.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Google Lens</b>-
+                    <span style="color:red;">Power Bank</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet Model</b>-
+                    <span style="color: red;">Ipod</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Results- </h4>
+                    <hr>
+                    <h4>Google Lens Is More Accurate</h4>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image- </b>
+                    <img src="Ring.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Google Lens</b>-
+                    <span style="color:red;">Ring</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet Model</b>-
+                    <span style="color: red;">Claw</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Results- </h4>
+                    <hr>
+                    <h4>Google Lens Is More Accurate</h4>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image- </b>
+                    <img src="Robot.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Google Lens</b>-
+                    <span style="color:red;">Toy</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet Model</b>-
+                    <span style="color: red;">Toy</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Results- </h4>
+                    <hr>
+                    <h4>Draw</h4>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image- </b>
+                    <img src="Speaker.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Google Lens</b>-
+                    <span style="color:red;">Speaker</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet Model</b>-
+                    <span style="color: red;">Spot Light</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Results- </h4>
+                    <hr>
+                    <h4>Google Lens Is More Accurate</h4>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image- </b>
+                    <img src="Tablet.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Google Lens</b>-
+                    <span style="color:red;">Tablet</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet Model</b>-
+                    <span style="color: red;">Solar Disk</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Results- </h4>
+                    <hr>
+                    <h4>Google Lens Is More Accurate</h4>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image- </b>
+                    <img src="Watch.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Google Lens</b>-
+                    <span style="color:red;">Stop Watch</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet Model</b>-
+                    <span style="color: red;">Stop Watch</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Results- </h4>
+                    <hr>
+                    <h4>Draw</h4>
+                </div>
+
+            </div>
+            <br>
+        </ol>
+        </div>
+        <div class="copy_right_footer">
+            Developed By - Shubhajit
+        </div>
+    </center>
+    </body>
+</html>

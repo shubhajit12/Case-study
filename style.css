@@ -1,0 +1,31 @@
+body{
+  font-family: monospace;
+}
+.copy_right_footer{
+    position:fixed;
+    width: 100%;
+    text-align:center;
+    color:white;
+    background-color: gray;
+    line-height: 2;
+    bottom: 0;
+  }
+  .test_image_and_result{
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+    color: white;
+    padding: 50px;
+    box-shadow: 10px 10px 10px gray;
+    margin-bottom: 30px;
+  }
+  h5{
+    background: white;
+    color:black;
+    padding: 10px;
+    border-radius: 25px;
+    
+  }
+  h1{
+    color: red;
+    font-variant: small-caps;
+  }
